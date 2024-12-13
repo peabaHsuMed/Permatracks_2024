@@ -5,6 +5,7 @@ This folder contains the implementation of using a simple NN regression model fo
 ## Important Notes
 - The model is **only accurate** when used with the old device (spacing: 30mm), as the training data was collected using this device.
 - For accurate results, ensure the data collection and predictions are performed on the same type of grid plate.
+- Before executing the codes, there should be no magnet on the plate. When the codes start running, the magnet can be placed. (reason: if there is magnet at the beginning, the background data is wrong)
 
 ## Training Data Details
 - Grid plate spacing: **30mm**
@@ -17,7 +18,7 @@ This folder contains the implementation of using a simple NN regression model fo
 1. Navigate to the project directory:
    $ cd OneDrive/desktop/Peaba workspace/Permatracks/sinple_NN_regression_single_magnet
 2. Run the localization script:
-   $ python localizatio_NN_regression.py
+   $ python localization_NN_regression.py
 
 ## Raw Data Collection Instructions
 1. Press the spacebar to collect raw data.
