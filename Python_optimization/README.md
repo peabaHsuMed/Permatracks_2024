@@ -54,6 +54,7 @@ This folder contains implementations of various optimization algorithms to retri
 - All scripts are configurable for different devices by adjusting the respective configurations.
 - Ensure the correct dependencies are installed for optimal performance.
 - If tracking is lost, rotate the magnet(s) randomly to make algorithm re-track
+- In optimization method, magnets can be placed at the beginning. (background data issue solved by hardcoding it)
 
 ## How to Execute the Code
 
