@@ -4,7 +4,7 @@ This folder contains the implementation of a **ResNet20 model** for predicting t
 
 ## Important Notes
 - The model is **only accurate** when used with the old device (spacing: 30mm) since the training data was collected using this setup.
-- The ResNet20 model is **slightly more accurate** than the simple regression model.
+- The ResNet20 model is **slightly more accurate** than the simple NN regression model.
 
 ## Training Data Details
 - **Grid Plate Spacing**: 30mm
