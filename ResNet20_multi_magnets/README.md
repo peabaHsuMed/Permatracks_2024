@@ -17,4 +17,7 @@ This folder contains the implementation of using a ResNet20 model for predicting
 3. Run the localization script:
    $ python localizatio_ResNet20_multi_mag.py
 
+## Important Notes
+- Before executing the codes, there should be no magnet on the plate. When the codes start running, the magnet can be placed. (reason: if there is magnet at the beginning, the background data is wrong)
+
 
