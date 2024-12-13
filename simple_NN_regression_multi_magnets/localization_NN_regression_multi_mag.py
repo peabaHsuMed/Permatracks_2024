@@ -38,7 +38,6 @@ logger = logging.getLogger(__name__)
 #UUIDs of all sensor characteristics
 ALL_SENSOR_CHAR_UUIDS = (
 "2aa10000-88b8-11ee-8501-0800200c9a66",
-#"2aa10001-88b8-11ee-8501-0800200c9a66" ## this line should be commented out but don't remove it
 )
 
 first_run = True

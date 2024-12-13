@@ -24,6 +24,7 @@ This folder contains the implementation of using simple NN regression model(s) f
 
 ## Important Notes
 - These models are **less accurate** compared to the single magnet prediction model.
+- Before executing the codes, there should be no magnet on the plate. When the codes start running, the magnet can be placed. (reason: if there is magnet at the beginning, the background data is wrong)
 
 ## How to Execute the Code
 
